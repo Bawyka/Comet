@@ -1,0 +1,60 @@
+root {
+	display: block;
+}
+
+fieldset {
+	margin: 50px auto;
+	width: 450px;
+	border: 2px groove threehighlight;
+}
+
+legend {
+	font-size: 14px;
+	color: #444;
+}
+
+dt label {
+	font-size: 13px;
+	color: #666;
+	margin-right: 10px;
+}
+
+dt {
+	float: left;
+	width: 100px;
+	text-align: right;
+}
+
+dd input, dd textarea {
+	width: 300px;
+}
+
+dd textarea {
+	height: 100px;
+}
+
+#messages div {
+	color: #333;
+	margin: 10px auto;
+	padding: 10px;
+	width: 600px;
+	border-bottom: 1px dashed #bbb;
+}
+
+#messages time, #messages .username, #messages .message {
+	color:  #333;
+	font-size: 14px;
+	margin: 0 10px;
+}
+
+#messages time {
+	font-size: 12px;
+}
+
+#messages .username {
+	font-weight: bold;
+}
+
+#sendButton {
+	width: auto;
+}
